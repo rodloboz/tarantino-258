@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+.page-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+ nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .12), 0 0 6px 0 rgba(0, 0, 0, .04);
+
+}
+.nav-left {
+  flex-grow: 1;
+  margin-left: 30px;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+#quotes {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .12), ;
+}
+
+.no-results {
+  color: gray;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, .12);
+
+}
+
+.quote-wrapper {
+  margin-left: 15px;
+  position: relative;
+  flex-grow: 1;
+}
+
+.quote-heading {
+  font-weight: bold;
+}
+
+.quote-body {
+  margin-top: 15px;
+  font-weight: lighter;
+}
+
+.quote-delete {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
